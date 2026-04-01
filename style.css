@@ -40,7 +40,8 @@ nav {
 }
 
 nav a:hover{
-  background-color: rgb(227, 203, 168);
+  background-color: white;
+  color: rgb(143, 86, 1);
 }
 
 nav a {
@@ -64,6 +65,13 @@ main {
 
 .welcome {
   font-size: 25px;
+}
+
+article {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid rgb(160, 120, 60);
+  background-color: rgb(250, 240, 220);
 }
 
 footer {

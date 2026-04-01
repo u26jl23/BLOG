@@ -6,6 +6,14 @@ export default function Main() {
         This is my personal corner on the internet. I want to use this site to post
         thoughts, updates, and anything I find interesting.
       </p>
+      <article>
+        <h2>Update</h2>
+        <small>April 1, 2026</small>
+        <p>
+          I am currently building this website step by step. Right now, I am working
+          on the homepage structure and learning how blog content should be organized.
+        </p>
+      </article>
     </main>
   )
 }
