@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: rgb(238, 216, 184);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(201, 125, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 2px;
+}
+
+nav a:hover{
+  background-color: rgb(227, 203, 168);
+}
+
+nav a {
+  padding: 6px 53px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(143, 86, 1);
+  box-shadow: 1px 1px 1px 1px;
+  display: inline-block;
+}
+
+main {
+  margin-top: 20px;
+  border: 1px solid rgb(73, 44, 0);
+  width: 1000px;
+  min-height: 600px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: rgb(255, 250, 240);
+}
+
+.welcome {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Additional styles for posts and sidebar can go here later */
