@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 /**
  * The navigation bar lists the pages. Later I might connect
@@ -6,12 +6,12 @@ import React from 'react';
  */
 export default function Navbar() {
   const links = [
-    { name: 'Home', href: '#' },
-    { name: 'Posts', href: '#' },
-    { name: 'Categories', href: '#' },
-    { name: 'Gallery', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Home', to: '/' },
+    { name: 'Posts', to: '/posts' },
+    { name: 'Categories', to: '/categories' },
+    { name: 'Gallery', to: '/gallery' },
+    { name: 'About', to: '/about' },
+    { name: 'Contact', to: '/contact' },
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function Navbar() {
       <ul className="nav-container">
         {links.map(link => (
           <li key={link.name} className="nav-item">
-            <a href={link.href}>{link.name}</a>
+            <Link to={link.to}>{link.name}</Link>
           </li>
         ))}
       </ul>
