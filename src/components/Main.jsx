@@ -9,7 +9,7 @@ export default function Main() {
           This is my personal corner on the internet. I want to use this site to post
           thoughts, updates, and anything I find interesting.
         </p>
-        {posts.map((post) => (
+        {posts.slice(0, 1).map((post) => (
           <article key={post.title}>
             <h2>{post.title}</h2>
             <small>{post.date}</small>
