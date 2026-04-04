@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './components/Header.jsx';
-import Navbar from './components/Navbar.jsx';
-import Main from './components/Main.jsx';
-import Footer from './components/Footer.jsx';
+import { Routes, Route } from "react-router-dom"
+import Header from './components/Header.jsx'
+import Navbar from './components/Navbar.jsx'
+import Main from './components/Main.jsx'
+import Footer from './components/Footer.jsx'
 import '../style.css';
 
 // The top‑level component assembles the layout pieces
@@ -11,7 +12,9 @@ function App() {
     <>
       <Header />
       <Navbar />
-      <Main />
+      <Routes>
+          <Route path='/' element={<Main/>} />
+      </Routes>
       <Footer />
     </>
   );
