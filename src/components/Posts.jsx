@@ -5,7 +5,7 @@ export default function Posts(){
             date: "April 4, 2026",
             content: "This is the first sample post on the Posts page. Later, this page can show more complete post previews or even full post content."
         }, {
-            tilte: "Another Update",
+            title: "Another Update",
             date: "April 4, 2026",
             content: "This second post preview helps the Posts page look more like a real collection of entries."
         }
