@@ -1,16 +1,6 @@
-export default function Posts(){
-    const posts = [
-        {
-            title: "First Post", 
-            date: "April 4, 2026",
-            content: "This is the first sample post on the Posts page. Later, this page can show more complete post previews or even full post content."
-        }, {
-            title: "Another Update",
-            date: "April 4, 2026",
-            content: "This second post preview helps the Posts page look more like a real collection of entries."
-        }
-    ]
+import posts from "../data/posts.js";
 
+export default function Posts(){
     return (
         <main>
             <h1>Posts</h1>

@@ -1,11 +1,6 @@
+import posts from "../data/posts.js";
+
 export default function Main() {
-  const posts = [
-    {
-      title: "Update",
-      date: "April 1, 2026",
-      content: "I am currently building this website step by step. Right now, I am working on the homepage structure and learning how blog content should be organized."
-    }
-  ]
 
   return (
     <main>
