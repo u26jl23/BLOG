@@ -67,6 +67,10 @@ main {
   font-size: 25px;
 }
 
+main h5 {
+  margin: 0 2px;
+}
+
 article {
   margin-top: 20px;
   padding: 15px;
@@ -83,6 +87,19 @@ article small {
   display: block;
   margin-bottom: 12px;
   color: rgb(110, 90, 60);
+}
+
+.to-posts{
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.to-posts a {
+  color: rgb(120, 70, 10);
+}
+.to-posts a:hover {
+  text-decoration: underline;
+  color: rgb(206, 166, 120);
 }
 
 footer {
